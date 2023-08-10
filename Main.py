@@ -24,7 +24,7 @@ def newFD():
     emp_id_count = {}
     cap = cv2.VideoCapture(0)
 
-    file = open('C:/ex/fd/newEncodeFile12.p', 'rb')
+    file = open('Jiten731/Auto_Attendance_System/newEncodeFile12.p', 'rb')
     encodewithID = pickle.load(file)
     file.close()
     encodelistknown, empID = encodewithID
