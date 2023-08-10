@@ -70,8 +70,8 @@ def newFD():
                         a = queryclass()
                         Type = 'out'
                         b = a.insert_emp_attandace(emp_id, tdate, ctime, Type)
-                        c = gritting(name)
-                        print(c)
+                        # c = gritting(name)
+                        # print(c)
                         print(pyttsx3.speak('good bye {}'.format(name)))
                     else:
                         a = queryclass()
