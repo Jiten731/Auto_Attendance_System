@@ -11,7 +11,7 @@ def gritting(name=""):
     a = time.strftime('%H')
     b = int(a)
     if 9<=b<12:
-        return pyttsx3.speak('good goodmorning {}'.format(name))
+        return pyttsx3.speak('good morning {}'.format(name))
     elif 12<=b<16:
         return pyttsx3.speak('good afternoon {}'.format(name))
     elif 16<=b<19:
